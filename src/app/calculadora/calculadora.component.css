@@ -1,0 +1,43 @@
+.encabezado {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #adadad, #adadad); /* Cambia a un gradiente de azul */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-container {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 350px;
+    max-width: 100%;
+    padding: 1.5rem;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.resultados {
+    grid-column: 1 /-1;
+    background: linear-gradient(to bottom, #b3b3b3ff, #b3b3b3ff);
+    text-align: end;
+    font-size: 30px;
+    height: 30px;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    
+}
+
+button {
+    border-radius: 5px;
+    background-color: rgb(182, 183, 184);
+    border: 0px;
+    padding: 20px;
+    font-size: medium;
+}
+
+button:hover {
+    background-color: rgb(186, 186, 186);
+}
